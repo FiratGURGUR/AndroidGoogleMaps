@@ -59,9 +59,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         });
     }
 
+
+
+
+
     @Override
     public void onMapReady(GoogleMap googleMap) {
-
         Double lat_ = 40.995923;
         Double lon_ = 28.879249;
         googleMap.addMarker(new MarkerOptions().position(new LatLng(lat_,lon_)).title("Bakırköy Adliyesi"));
